@@ -1,2 +1,2 @@
 # cBingo
-Bingo in C++ by users
+Bingo in C++ by Group 10 of Challenge 2

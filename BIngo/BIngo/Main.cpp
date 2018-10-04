@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+<<<<<<< HEAD
+int main() 
+{
+
+=======
 int B [5] = { }; // these are our arrays. One per column. 
 int I [5] = { }; // it is possible to do 2d arrays (tables)
 int N [4] = { }; // but i thought id keep it simple for now.
@@ -19,4 +24,5 @@ int randNumGen(char col, int list) { // this function takes in the column (throu
 
 int main() { // main program
 	return 0;
+>>>>>>> e8165199b1707d421ee1279edcc356811e0f779c
 }

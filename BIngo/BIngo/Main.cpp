@@ -1,5 +1,4 @@
 #include <iostream>
-<<<<<<< HEAD
 using namespace std;
 
 int B [5] = { }; // these are our arrays. One per column. 
@@ -19,11 +18,5 @@ int randNumGen(char col, int list) { // this function takes in the column (throu
 }
 
 int main() { // main program
-
-=======
-
-int main() 
-{
->>>>>>> 5bbcbf1861b2cc4bb26fa6119443f3fe4dcd05bf
 	return 0;
 }

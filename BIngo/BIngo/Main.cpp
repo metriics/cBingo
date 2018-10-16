@@ -1,4 +1,7 @@
 #include <iostream>
+#include <stdlib.h> //rand, srand
+#include <string>
+
 using namespace std;
 
 <<<<<<< HEAD
@@ -22,7 +25,56 @@ int randNumGen(char col, int list) { // this function takes in the column (throu
 	}
 }
 
-int main() { // main program
+int main() 
+{ // main program
+
+	//Rebecca's random number generator start
+	int Number;
+	std::string Again;
+	bool End;
+
+	End = false;
+
+	//Simple rolling Loop
+	while (End == false)
+	{
+		Number = rand() % 75 + 1; //Number decider
+
+		if (Number < 16)
+		{
+			std::cout << "\nB: " << Number << ".\n";
+		}
+		else if (Number < 31)
+		{
+			std::cout << "\nI: " << Number << ".\n";
+		}
+		else if (Number < 46)
+		{
+			std::cout << "\nN: " << Number << ".\n";
+		}
+		else if (Number < 61)
+		{
+			std::cout << "\nG: " << Number << ".\n";
+		}
+		else
+		{
+			std::cout << "\nO: " << Number << ".\n";
+		}
+
+		std::cout << "\nWould you like to roll again?\n";
+		std::cin >> Again;
+		if (Again == "Yes" || Again == "yes")
+		{
+			continue;
+		}
+		else
+		{
+			End = true;
+		}
+		
+	}
+	//Rebecca's random number generator end
+
 	return 0;
 >>>>>>> e8165199b1707d421ee1279edcc356811e0f779c
 }
